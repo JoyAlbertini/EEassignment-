@@ -60,7 +60,7 @@ matrix[17] = ["buyByMeOrBye",   "buyByMeOrBie", "byBuyMeOrBye", "buyMeByOrBye", 
 matrix[18] = ["fistOfTheNorthStar", "fistsOfTheNorthStar", "fistOfTheNorthStars", "fistOfTheNorhtStar", "fistOfTheNorthChar", "fitsOfTheNorthStar", "fistOfTheSuothStar", "fistOffTheNorthStar"]
 matrix[19] = ["lastButNotLeastTest", "lastButNotLaestTest", "lostButNotLeastTest", "lustButNotLeastTest", "lastButNotLeastTests", "lastNotButLeastTest", "leastButNotLastTest", "lastButNotLeastTost"]
 matrix[20] = ["sunsetSouthSouthwardLouth", "sunsetSuothSouthwardLouth", "sunsetSouthSouthwardLoth", "sunsetSoutSouthwardLouth", "sunsetSouthSuothwardLouth", "sunsetSouhtSouthwardLouth", "sunsetBouthSouthwardLouth", "sunsetSouthSouthwardBouth"]
-matrix[21] = ["tortuousTorusToTorturousTwo", "tortuousTorusToTortorousTwo", "tortuosusTorusToTorturousTwo", "tortuousTorusToTorturousTo", "tortuousTorusTwoTorturousTo", "tortuousTarusToTorturousTwo", "tortuousTorusTutorsTwo", "tortuousTorusToTorturousTw"]
+matrix[21] = ["tortuousTorusToTorturousTwo", "tortuousTorusToTortorousTwo", "tortuosusTorusToTorturousTwo", "tortuousTorusToTorturousTo", "tortuousTorusTwoTorturousTo", "tortuousTarusToTorturousTwo", "tortuousTorusTutorsTwo", "tortuousTorusToTorturousTwd"]
 
 // ---- kebab case ----
 // 3 with 2 words camelCase 
