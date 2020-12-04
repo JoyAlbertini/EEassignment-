@@ -70,10 +70,10 @@ matrix[24] = ["screen-size", "screens-size", "screen-sizes", "scream-size", "scr
 matrix[25] = ["lyst-mist", "list-mist", "lyst-myst", "lysts-mist", "lyts-mist", "lyst-mists", "lyst-mits", "lyst-nist"] 
 matrix[26] = ["accept-except", "acept-except", "accet-except", "accept-exept", "accept-excess", "accept-excet", "access-except", "accept-concept"] 
 // 3 with 3 words camelCase 
-matrix[27] = ["two-to-too", "two-too-to", "to-two-too", "to-too-two", "twu-to-too", "tw-to-too", "two-too-too" ,"two-to-to"]
+matrix[27] = ["two-to-too", "two-too-to", "to-two-too", "to-too-two", "twu-to-too", "tow-to-too", "two-too-too" ,"two-to-to"]
 matrix[28] = ["make-step-forward", "make-steps-forward", "make-steps-forward", "make-step-forwards", "made-step-forwards", "make-stop-forward", "make-step-farward", "make-sthep-forward"]
 matrix[29] = ["money-buy-happiness", "money-buys-happiness", "money-buy-hapiness", "money-buy-happines", "money-buy-handiness", "money-guy-happiness", "money-buy-happinness", "mourey-buy-happiness"]
-matrix[30] = ["sunset-on-south", "sunset-on-souths", "sunsets-on-south", "sunset-on-souht", "sunset-to-south", "sunet-on-South", "subset-on-south", "sunset-on-Sleuth"]
+matrix[30] = ["sunset-on-south", "sunset-on-souths", "sunsets-on-south", "sunset-on-souht", "sunset-to-south", "sunet-on-south", "subset-on-south", "sunset-on-sleuth"]
 matrix[31] = ["tortuous-torturous-two", "torturous-tortuous-two", "tortuos-torturous-two", "tortuous-torturuos-two", "tortuous-tortorous-two", "tortuous-tortutors-two", "two-tortuous-torturous", "tortuou-Torturou-two"]
 // 3 with 4 words camelCase
 matrix[32] = ["how-old-you-are", "how-old-are-you", "how-old-yuo-are", "how-cold-you-are", "hows-old-you-are", "how-old-you-care", "how-you-are-old", "howl-old-you-are"]
