@@ -34,33 +34,33 @@ var C_k = 0; // 0 camel case, 1 kebab
 var matrix = [];
 
 // ---- camel-case ----
-matrix[0] = ["eatGhost", "eadGhost", "eatGhast", "eatGhost", "eatGhosts", "ateGhost"]
-matrix[1] = ["eat-ghost", "ead-Ghost", "eat-Ghast", "eat-Ghost", "eat-Ghosts", "ate-Ghost"]
+matrix[0] = ["eatGhost", "eadGhost", "eatGhast", "eatGhosh", "eatGhosts", "ateGhost"]
+matrix[1] = ["eat-ghost", "ead-ghost", "eat-ghast", "eat-ghosh", "eat-ghosts", "ate-ghost"]
 // 3 with 2 words camelCase 
-matrix[2] = ["testCovid", "tastCovid", "testCovis", "tasteCovid", "testerCovid", "bestCovid"] 
-matrix[3] = ["moveSouth", "moreSouth", "moveSuth", "moverSouth", "muveSouth", "moveSource"] 
-matrix[4] = ["screenSize", "screensSize", "screenSizes", "screamSize", "screenResize", "screnSize"] 
-matrix[5] = ["lystMist", "listMist", "lystMyst", "lystsMist", "lytsMist", "lystMists"] 
-matrix[6] = ["acceptExcept", "aceptExcept", "accetExcept", "acceptExept", "acceptExcess", "acceptExcet"] 
+matrix[2] = ["testCovid", "tastCovid", "testCovis", "tasteCovid", "testerCovid", "bestCovid", "restCovid" , "testsCovid"] 
+matrix[3] = ["moveSouth", "moreSouth", "moveSuth", "moverSouth", "muveSouth", "moveSource", "moveSuoth", "moveSouht"] 
+matrix[4] = ["screenSize", "screensSize", "screenSizes", "screamSize", "screenResize", "screnSize", "screemSize", "screemSyze"] 
+matrix[5] = ["lystMist", "listMist", "lystMyst", "lystsMist", "lytsMist", "lystMists", "lystMits", "lystNist"] 
+matrix[6] = ["acceptExcept", "aceptExcept", "accetExcept", "acceptExept", "acceptExcess", "acceptExcet", "accessExcept", "acceptConcept"] 
 // 3 with 3 words camelCase 
-matrix[7] = ["twoToToo", "twoTooTo", "toTwoToo", "toTooTwo", "twuToToo", "twToToo"]
-matrix[8] = ["makeStepForward", "makeStepsForward", "makeStepsForward", "makeStepForwards", "madeStepForwards", "makeStopForward"]
-matrix[9] = ["moneyBuyHappiness", "moneyBuysHappiness", "moneyBuyHapiness", "moneyBuyHappines", "moneyBuyhandiness", "moneyGuyHappiness"]
-matrix[10] = ["sunsetOnSouth", "sunsetOnSouths", "sunsetsOnSouth", "sunsetOnSouht", "sunsetToSouth", "sunetOnSouth"]
-matrix[11] = ["tortuousTorturousTwo", "torturousTortuousTwo", "tortuosTorturousTwo", "tortuousTorturuosTwo", "tortuousTortorousTwo", "tortuousTortutorsTwo"]
+matrix[7] = ["twoToToo", "twoTooTo", "toTwoToo", "toTooTwo", "twuToToo", "twToToo", "twoTooToo" ,"twoToTo"]
+matrix[8] = ["makeStepForward", "makeStepsForward", "makeStepsForward", "makeStepForwards", "madeStepForwards", "makeStopForward", "makeStepFarward", "makeSthepForward"]
+matrix[9] = ["moneyBuyHappiness", "moneyBuysHappiness", "moneyBuyHapiness", "moneyBuyHappines", "moneyBuyhandiness", "moneyGuyHappiness", "moneyBuyHappinness", "moureyBuyHappiness"]
+matrix[10] = ["sunsetOnSouth", "sunsetOnSouths", "sunsetsOnSouth", "sunsetOnSouht", "sunsetToSouth", "sunetOnSouth", "subsetOnSouth", "sunsetOnSleuth"]
+matrix[11] = ["tortuousTorturousTwo", "torturousTortuousTwo", "tortuosTorturousTwo", "tortuousTorturuosTwo", "tortuousTortorousTwo", "tortuousTortutorsTwo", "TwoTortuousTorturous", "tortuouTorturouTwo"]
 
 // 3 with 4 words camelCase
-matrix[12] = ["howOldYouAre", "howOldAreYou", "howOldYuoAre", "howColdYouAre", "howsOldYouAre", "howOldYouCare"]
-matrix[13] = ["nurseryRhymesSongsKids", "nurseryRhymeSongsKids", "nurseryRhymesSongKids", "nurseryRhymesSongsKid", "nurseriRhymesSongsKids", "nurseryRhymesSongsKeeps"]
-matrix[14] = ["tigersVersusTigerFight", "tigerVersusTigerFight", "tigerVersusTigersFight", "tygersVersusTigerFight", "tigersVersusTygerFight", "tigersVersusTigerFights"]
-matrix[15] = ["coarseCourseToCourts", "coarseCurseToCourts", "coarseCourseToCurts", "coarseCoursesToCourts",  "coarseCourseToCourt", "coraseCourseToCourts"]
-matrix[16] = ["tortuousTorusTorturousTwo", "tortousTorusTorturousTwo", "torusTortuousTorturousTwo", "tortuousTorusTortorousTwo" , "tortuousTorusTorturusTwo", "tortuousTorusTorturousTo"]
+matrix[12] = ["howOldYouAre", "howOldAreYou", "howOldYuoAre", "howColdYouAre", "howsOldYouAre", "howOldYouCare", "howYouAreOld", "howlOldYouAre"]
+matrix[13] = ["nurseryRhymesSongsKids", "nurseryRhymeSongsKids", "nurseryRhymesSongKids", "nurseryRhymesSongsKid", "nurseriRhymesSongsKids", "nurseryRhymesSongsKeeps", "nurseryRymesSongsKids", "nurseyRhymesSongsKids"]
+matrix[14] = ["tigersVersusTigerFight", "tigerVersusTigerFight", "tigerVersusTigersFight", "tygersVersusTigerFight", "tigersVersusTygerFight", "tigersVersusTigerFights", "tigersVerusTigerFight", "tigersVersusTigerFought"]
+matrix[15] = ["coarseCourseToCourts", "coarseCurseToCourts", "coarseCourseToCurts", "coarseCoursesToCourts",  "coarseCourseToCourt", "coraseCourseToCourts", "coarseToCourseCourts", "coarseToCourseCourus"]
+matrix[16] = ["tortuousTorusTorturousTwo", "tortousTorusTorturousTwo", "torusTortuousTorturousTwo", "tortuousTorusTortorousTwo" , "tortuousTorusTorturusTwo", "tortuousTorusTorturousTo", "tortuousTwoTorusTorturous", "tortuousTorusTwoTorturous"]
 // 3 with 5 words camelCase 
-matrix[17] = ["buyByMeOrBye",   "buyByMeOrBie", "byBuyMeOrBye", "buyMeByOrBye", "buysByMeOrBye", "buyByMeOrEye"]
-matrix[18] = ["fistOfTheNorthStar", "fistsOfTheNorthStar", "fistOfTheNorthStars", "fistOfTheNorhtStar", "fistOfTheNorthChar", "fitsOfTheNorthStar"]
-matrix[19] = ["lastButNotLeastTest", "lastButNotLaestTest", "lostButNotLeastTest", "lustButNotLeastTest", "lastButNotLeastTests", "lastNotButLeastTest"]
-matrix[20] = ["sunsetSouthSouthwardLouth", "sunsetSuothSouthwardLouth", "sunsetSouthSouthwardLoth", "sunsetSoutSouthwardLouth", "sunsetSouthSuothwardLouth", "sunsetSouhtSouthwardLouth" ]
-matrix[21] = ["tortuousTorusToTorturousTwo", "tortuousTorusToTortorousTwo", "tortuosusTorusToTorturousTwo", "tortuousTorusToTorturousTo", "tortuousTorusTwoTorturousTo", "tortuousTarusToTorturousTwo"]
+matrix[17] = ["buyByMeOrBye",   "buyByMeOrBie", "byBuyMeOrBye", "buyMeByOrBye", "buysByMeOrBye", "buyByMeOrEye", "bustByMeOrBye", "buyByMoreBye"]
+matrix[18] = ["fistOfTheNorthStar", "fistsOfTheNorthStar", "fistOfTheNorthStars", "fistOfTheNorhtStar", "fistOfTheNorthChar", "fitsOfTheNorthStar", "fistOfTheSuothStar", "fistOffTheNorthStar"]
+matrix[19] = ["lastButNotLeastTest", "lastButNotLaestTest", "lostButNotLeastTest", "lustButNotLeastTest", "lastButNotLeastTests", "lastNotButLeastTest", "leastButNotLastTest", "lastButNotLeastTost"]
+matrix[20] = ["sunsetSouthSouthwardLouth", "sunsetSuothSouthwardLouth", "sunsetSouthSouthwardLoth", "sunsetSoutSouthwardLouth", "sunsetSouthSuothwardLouth", "sunsetSouhtSouthwardLouth", "sunsetBouthSouthwardLouth", "sunsetSouthSouthwardBouth"]
+matrix[21] = ["tortuousTorusToTorturousTwo", "tortuousTorusToTortorousTwo", "tortuosusTorusToTorturousTwo", "tortuousTorusToTorturousTo", "tortuousTorusTwoTorturousTo", "tortuousTarusToTorturousTwo", "tortuousTorusTutorsTwo", "tortuousTorusToTorturousTw"]
 
 // ---- kebab case ----
 // 3 with 2 words camelCase 
@@ -371,7 +371,7 @@ let saveFile = () => {
     }
     data += '\n';
     data += "5kebab_words: " 
-    for (i = 37; i < 41; i++) {
+    for (i = 37; i < 42; i++) {
         data += times[i] + " "
     }
 
