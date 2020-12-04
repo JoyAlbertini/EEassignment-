@@ -47,7 +47,7 @@ matrix[7] = ["twoToToo", "twoTooTo", "toTwoToo", "toTooTwo", "twuToToo", "twToTo
 matrix[8] = ["makeStepForward", "makeStepsForward", "makeStepsForward", "makeStepForwards", "madeStepForwards", "makeStopForward", "makeStepFarward", "makeSthepForward"]
 matrix[9] = ["moneyBuyHappiness", "moneyBuysHappiness", "moneyBuyHapiness", "moneyBuyHappines", "moneyBuyhandiness", "moneyGuyHappiness", "moneyBuyHappinness", "moureyBuyHappiness"]
 matrix[10] = ["sunsetOnSouth", "sunsetOnSouths", "sunsetsOnSouth", "sunsetOnSouht", "sunsetToSouth", "sunetOnSouth", "subsetOnSouth", "sunsetOnSleuth"]
-matrix[11] = ["tortuousTorturousTwo", "torturousTortuousTwo", "tortuosTorturousTwo", "tortuousTorturuosTwo", "tortuousTortorousTwo", "tortuousTortutorsTwo", "TwoTortuousTorturous", "tortuouTorturouTwo"]
+matrix[11] = ["tortuousTorturousTwo", "torturousTortuousTwo", "tortuosTorturousTwo", "tortuousTorturuosTwo", "tortuousTortorousTwo", "tortuousTortutorsTwo", "twoTortuousTorturous", "tortuouTorturouTwo"]
 
 // 3 with 4 words camelCase
 matrix[12] = ["howOldYouAre", "howOldAreYou", "howOldYuoAre", "howColdYouAre", "howsOldYouAre", "howOldYouCare", "howYouAreOld", "howlOldYouAre"]
@@ -64,29 +64,29 @@ matrix[21] = ["tortuousTorusToTorturousTwo", "tortuousTorusToTortorousTwo", "tor
 
 // ---- kebab case ----
 // 3 with 2 words camelCase 
-matrix[22] = ["test-covid", "tast-covid", "test-covis", "taste-covid", "tester-covid", "best-covid"] 
-matrix[23] = ["move-south", "more-south", "move-suth", "mover-south", "muve-south", "move-source"] 
-matrix[24] = ["screen-size", "screens-size", "screen-sizes", "scream-size", "screen-resize", "scren-size"] 
-matrix[25] = ["lyst-mist", "list-mist", "lyst-myst", "lysts-mist", "lyts-mist", "lyst-mists"] 
-matrix[26] = ["accept-except", "acept-except", "accet-except", "accept-exept", "accept-excess", "accept-excet"] 
+matrix[22] = ["test-covid", "tast-covid", "test-covis", "taste-covid", "tester-covid", "best-covid", "rest-covid" , "tests-covid"]
+matrix[23] = ["move-south", "more-south", "move-suth", "mover-south", "muve-south", "move-source", "move-suoth", "move-souht"] 
+matrix[24] = ["screen-size", "screens-size", "screen-sizes", "scream-size", "screen-resize", "scren-size", "screem-size", "screen-syze"] 
+matrix[25] = ["lyst-mist", "list-mist", "lyst-myst", "lysts-mist", "lyts-mist", "lyst-mists", "lyst-mits", "lyst-nist"] 
+matrix[26] = ["accept-except", "acept-except", "accet-except", "accept-exept", "accept-excess", "accept-excet", "access-except", "accept-concept"] 
 // 3 with 3 words camelCase 
-matrix[27] = ["two-to-too", "two-too-to", "to-two-too", "to-too-two", "twu-to-too", "tw-to-too"]
-matrix[28] = ["make-step-forward", "make-steps-forward", "make-steps-forward", "make-step-forwards", "made-step-forwards", "make-stop-forward"]
-matrix[29] = ["money-buy-happiness", "money-buys-happiness", "money-buy-hapiness", "money-buy-happines", "money-buy-handiness", "money-guy-happiness"]
-matrix[30] = ["sunset-on-south", "sunset-on-souths", "sunsets-on-south", "sunset-on-souht", "sunset-to-south", "sunet-on-South"]
-matrix[31] = ["tortuous-torturous-two", "torturous-tortuous-two", "tortuos-torturous-two", "tortuous-torturuos-two", "tortuous-tortorous-two", "tortuous-tortutors-two"]
+matrix[27] = ["two-to-too", "two-too-to", "to-two-too", "to-too-two", "twu-to-too", "tw-to-too", "two-too-too" ,"two-to-to"]
+matrix[28] = ["make-step-forward", "make-steps-forward", "make-steps-forward", "make-step-forwards", "made-step-forwards", "make-stop-forward", "make-step-farward", "make-sthep-forward"]
+matrix[29] = ["money-buy-happiness", "money-buys-happiness", "money-buy-hapiness", "money-buy-happines", "money-buy-handiness", "money-guy-happiness", "money-buy-happinness", "mourey-buy-happiness"]
+matrix[30] = ["sunset-on-south", "sunset-on-souths", "sunsets-on-south", "sunset-on-souht", "sunset-to-south", "sunet-on-South", "subset-on-south", "sunset-on-Sleuth"]
+matrix[31] = ["tortuous-torturous-two", "torturous-tortuous-two", "tortuos-torturous-two", "tortuous-torturuos-two", "tortuous-tortorous-two", "tortuous-tortutors-two", "two-tortuous-torturous", "tortuou-Torturou-two"]
 // 3 with 4 words camelCase
-matrix[32] = ["how-old-you-are", "how-old-are-you", "how-old-yuo-are", "how-cold-you-are", "hows-old-you-are", "how-old-you-care"]
-matrix[33] = ["nursery-rhymes-songs-kids", "nursery-rhyme-songs-kids", "nursery-rhymes-song-kids", "nursery-rhymes-songs-kid", "nurseri-rhymes-songs-kids", "nursery-rhymes-songs-keeps"]
-matrix[34] = ["tigers-versus-tiger-fight", "tiger-versus-tiger-fight", "tiger-versus-tigers-fight", "tygers-versus-tiger-fight", "tigers-versus-tyger-fight", "tigers-versus-tiger-fights"]
-matrix[35] = ["coarse-curse-to-courts", "coarse-curse-to-courts", "coarse-course-to-curts", "coarse-courses-to-courts",  "coarse-course-to-court", "corase-course-to-courts"]
-matrix[36] = ["tortuous-torus-torturous-two", "tortous-torus-torturous-two", "torus-tortuous-torturous-two", "tortuous-torus-tortorous-two" , "tortuous-torus-torturus-two", "tortuous-torus-torturous-to"]
+matrix[32] = ["how-old-you-are", "how-old-are-you", "how-old-yuo-are", "how-cold-you-are", "hows-old-you-are", "how-old-you-care", "how-you-are-old", "howl-old-you-are"]
+matrix[33] = ["nursery-rhymes-songs-kids", "nursery-rhyme-songs-kids", "nursery-rhymes-song-kids", "nursery-rhymes-songs-kid", "nurseri-rhymes-songs-kids", "nursery-rhymes-songs-keeps", "nursery-rymes-songs-kids", "nursey-rhymes-songs-kids"]
+matrix[34] = ["tigers-versus-tiger-fight", "tiger-versus-tiger-fight", "tiger-versus-tigers-fight", "tygers-versus-tiger-fight", "tigers-versus-tyger-fight", "tigers-versus-tiger-fights", "tigers-verus-tiger-fight", "tigers-versus-tiger-fought"]
+matrix[35] = ["coarse-curse-to-courts", "coarse-curse-to-courts", "coarse-course-to-curts", "coarse-courses-to-courts",  "coarse-course-to-court", "corase-course-to-courts", "coarse-to-course-courts", "coarse-to-course-courus"]
+matrix[36] = ["tortuous-torus-torturous-two", "tortous-torus-torturous-two", "torus-tortuous-torturous-two", "tortuous-torus-tortorous-two" , "tortuous-torus-torturus-two", "tortuous-torus-torturous-to", "tortuous-two-torus-torturous", "tortuous-torus-two-torturous"]
 // 3 with 5 words camelCase 
-matrix[37] = ["buy-by-me-or-bye", "buy-by-me-or-bie", "by-buy-me-or-bye", "buy-me-by-or-bye", "buys-by-me-or-bye", "buy-by-me-or-eye"]
-matrix[38] = ["fist-of-the-north-star", "fists-of-the-north-star", "fist-of-the-north-stars", "fist-of-the-norht-star", "fist-of-the-north-char", "fits-of-the-north-star"]
-matrix[39] = ["last-but-not-least-test", "last-but-not-laest-test", "lost-but-not-least-test", "lust-but-not-least-test", "last-but-not-least-tests", "last-not-but-least-test"]
-matrix[40] = ["sunset-south-southward-louth", "sunset-suoth-southward-louth", "sunset-south-southward-loth", "sunset-sout-southward-louth", "sunset-south-suothward-louth", "sunset-souht-southward-louth" ]
-matrix[41] = ["tortuous-torus-to-torturous-two", "tortuous-torus-to-tortorous-two", "tortuosus-torus-to-torturous-two", "tortuous-torus-to-torturous-to", "tortuous-torus-two-torturous-to", "tortuous-tarus-to-torturous-two"]
+matrix[37] = ["buy-by-me-or-bye", "buy-by-me-or-bie", "by-buy-me-or-bye", "buy-me-by-or-bye", "buys-by-me-or-bye", "buy-by-me-or-eye", "bust-by-me-or-bye", "buy-by-more-Bye"]
+matrix[38] = ["fist-of-the-north-star", "fists-of-the-north-star", "fist-of-the-north-stars", "fist-of-the-norht-star", "fist-of-the-north-char", "fits-of-the-north-star", "fist-of-the-suoth-star", "fist-off-the-north-star"]
+matrix[39] = ["last-but-not-least-test", "last-but-not-laest-test", "lost-but-not-least-test", "lust-but-not-least-test", "last-but-not-least-tests", "last-not-but-least-test", "least-but-not-last-test", "last-but-not-least-tost"]
+matrix[40] = ["sunset-south-southward-louth", "sunset-suoth-southward-louth", "sunset-south-southward-loth", "sunset-sout-southward-louth", "sunset-south-suothward-louth", "sunset-souht-southward-louth" , "sunset-bouth-southward-louth", "sunset-south-southward-bouth"]
+matrix[41] = ["tortuous-torus-to-torturous-two", "tortuous-torus-to-tortorous-two", "tortuosus-torus-to-torturous-two", "tortuous-torus-to-torturous-to", "tortuous-torus-two-torturous-to", "tortuous-tarus-to-torturous-two", "tortuous-torus-tutors-two", "tortuous-torus-to-torturous-twd"]
 
 var correct = []
 correct[0] = "eatGhost";
