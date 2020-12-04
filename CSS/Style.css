@@ -1,0 +1,326 @@
+* { /*-- universal modifier */
+  margin: 3px;
+}
+
+/* remove scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {background-color: rgb(128, 245, 186);}
+
+
+/* custom font -----------------------------------------------------------------------------------------*/
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Orbitron Regular'), local('Orbitron-Regular'), url(https://fonts.gstatic.com/s/orbitron/v11/yMJRMIlzdpvBhQQL_Qq7dy0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Abel Regular'), local('Abel-Regular'), url(https://fonts.gstatic.com/s/abel/v10/MwQ5bhbm2POE2V9BPQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Define the text style *-------------------------------------------------------------------------------*/
+
+p {
+  color:white; 
+  text-align: left; 
+  font-weight: Regular;
+  font-family: abel; 
+
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: Abel; 
+  text-align: center; 
+  font-weight: Regular;
+  color: rgb(255, 255, 255);
+}
+
+h2 { 
+  color: rgb(81, 250, 208); 
+  font-size: 1.5rem;
+  font-family: abel; 
+  text-align: left; 
+  font-weight: Regular;
+}
+
+h3 { 
+  color: rgb(217, 255, 128); 
+  font-size: 1.5rem;
+  font-family: abel; 
+  text-align: left; 
+  font-weight: Regular;
+}
+
+h4 { 
+  color: rgb(217, 255, 128); 
+  font-size: 1.5rem;
+  font-family: abel; 
+  text-align: left; 
+  font-weight: Regular;
+}
+
+/* menu text */
+h5 {
+  color: rgb(255, 255, 255); 
+  font-size: 2.2rem;
+  font-family: abel; 
+  text-align: center; 
+  font-weight: Regular;
+  float: left;
+}
+
+h6 {
+  color: white; 
+  font-family: Abel; 
+  text-align: center; 
+  font-weight: Regular
+}
+
+mark.yellow {
+  color: rgb(217, 255, 128); 
+  background: none;
+}
+
+ul {
+  color: white; 
+}
+
+/* HTML/body ----------------------------------------------------------------------------------*/
+
+body { /* -- become the flex container */
+  font-size: 24px;
+  height: 100vh; /*-- scalable on the dimension of the page vertical height */
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* -- colum style for FOOTER and HEADER */
+}
+
+/* HEADER (logo) --------------------------------------------------------------------------*/
+.flex-header {
+  
+}
+
+/*flex main -------------------------------------------------------------------------------*/
+.flex-main { /* -- For the SIDENAV, MAIN CONTENT, SIDEBAR */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-left: 12%;
+  margin-right: 12%;
+  flex: 1; 
+}
+
+
+
+/* main content --------------------------------------------------------------------------*/
+.flex-article {
+  background-color: rgba(0, 0, 0, 0.226);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  display: block;
+  flex: 1;
+  border-radius: 20px;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+}
+
+
+/* class that put element in column */
+.in-line {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* FOOTER Copyright -------------------------------------------------------------------------*/
+
+.flex-footer {
+  background-color: rgba(0, 0, 0, 0.226);
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  border-radius: 20px;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Mini Logo dimensions */
+.flex-footer img {
+  max-width:5%;
+  max-height: auto;
+}
+
+
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #50f0a0;
+  color: rgb(81, 250, 208);
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 13px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.to_find_error {
+  margin: 8px;
+  background-color: #ffffff;
+  padding: 5px;
+  color: #d67f1b;
+  border-radius: 3px;
+  transition: 100ms;
+  float: left;
+}
+
+.to_find_error:hover {
+  background-color: #fdeeae;
+}
+
+.to_find_error:active {
+  color: #ffffff;
+  background-color: #fb7f7f;
+}
+
+
+.to_find_correct {
+  margin: 8px;
+  background-color: #ffffff;
+  padding: 5px;
+  color: #d67f1b;
+  border-radius: 3px;
+  transition: 100ms;
+  float: left;
+}
+
+.to_find_correct:hover {
+  background-color: #fdeeae;
+}
+
+.to_find_correct:active {
+  color: #ffffff;
+  background-color: #00ff15;
+}
+
+.empty {
+  height: 24px;
+  float: left;
+  margin: 8px;
+  padding: 5px;
+}
+
+
+.wrap {
+
+  width : 70vw;
+  height: 40vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: inline-block;
+  flex: 1;
+}
+
+
+/* play -------------------------------------------------------------------------------------------------------------------*/
+
+.to_find {  
+  color: rgb(217, 255, 128); 
+  background: none;
+  text-decoration-line: underline;
+}
+
+.style_c_k {
+  color: rgb(148, 250, 108); 
+  background: none;
+  text-decoration-line: underline;
+}
+
+.button_play {
+color: #fff !important;
+font-size: 1.4rem;
+text-decoration: none;
+background: #ff7e7e;
+padding: 10px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+float: right;
+}
+
+.button_play:hover {
+  background: #ff0000;
+letter-spacing: 5px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+.empty_space {
+  flex : 3;
+  height: 10px;
+  display: block;
+}
+
+.playing {
+  display: none;
+}
+
+.download {
+  display: none;
+}
+
+#message {
+  color: #ff0000;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camelcase vs Kebabcase</title>
+    <link rel="stylesheet" href="CSS/Style.css"> <!-- link to the style sheet -->
+</head>
+
+<body>
+    <header class="flex-header">
+        <h1>camelCase vs kebab-case</h1>
+    </header>
+    <main class="flex-main">
+        <article class="flex-article">
+          <div class="info">
+            <center>
+              <h5>Your infos</h5>
+              <span style="display:block; height: 6vh;"></span>
+              <p> I need some informations about you for two reasons: </p>
+              <ul>
+                  <li> <p>In case something went wrong in your testing, i can indentify your result and ask you to redo it.</p> </li>
+                  <li> <p>I need your infos for statistics calculation.</p></li>
+              </ul>
+                
+              <span style="display:block; height: 4vh;"></span>
+              <div class="Printing_box">
+                <form id="your_data" >
+                  <center>
+                    <table>
+                      <tr>
+                        <td>
+                          <h4>Your name:</h4>
+                        </td>
+                       <td><input type="text" id="name" size="20"></td> 
+                      </tr>
+                      <tr>
+                        <td>
+                          <h4>Your last name:</h4>
+                        </td>
+                       <td><input type="text" id="last_name" size="20"></td> 
+                      </tr>
+                      <tr>
+                        <td>
+                          <h4>Mother tongue:</h4>
+                        </td>
+                       <td><input type="text" id="language" size="10"></td> 
+                      </tr>
+                      <tr>
+                        <td>
+                          <h4 id="form">Your age:</h4>
+                        </td>
+                        <td>
+                            <input type="number" id="age" min="1" max="100">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h4 id="form">Your current work or faculty :</h4>
+                        </td>
+                        <td><textarea id="faculty" name="faculty" cols="50" rows="4"></textarea></td>
+                      </tr>
+                    </table>
+                    <div id="message"></div>
+                    <br>
+                  </center>
+                </form>
+                <h5>Use of personal information:</h5>
+                <br>
+                <br>
+                <p>Use of personal data:
+                  All of the data collected during the experiment will only be used for academic purposes, the data will be kept anonymous and won't be used for any commercial application. By partecipating you agree on letting us use the data that will be collected during the experiment. After the completion of the experiment you will still have 24 hours to contact us and be removed from the experiment, in that case all the data collected from you will be eliminated.</p>
+                <br>  
+                <button id="redirect_button" onclick="submit_data()" class="button" style="vertical-align:middle"><span>Next</span></button>
+              </div>
+            </center>
+          </div> 
+            <center>
+            <div class = "playing" id="playing">
+              <h4 id="section_indent"> Test section 0)</h4>
+              <h5>Find word <mark id="to_find" class="to_find">eat ghost</mark> in <mark id="style_c_k" class="style_c_k"> Camelcase</mark></h5>
+              <button id="button_play" class="button_play" type="button" onclick="" >Play!</button>
+              <div id="test"></div>
+              <br>
+              <br>
+              <br>
+              <div class="empty_space"></div>
+              <center><div id="wrap" class="wrap"></div></center>
+            </div>
+            <div class="download" id="download">
+              <center>
+                  <h5>Test ended</h5>
+                  <span style="display:block; height: 6vh;"></span>
+                  <p> Download the results and upload it to the following link: <a href="https://1drv.ms/u/s!AjZv2fgaLt2FivxWFM-adezbcti1DA?e=0adxY1" target="_blank">[OneDrive]</a></p>
+                  <span style="display:block; height: 20vh;"></span>
+                <button id="redirect_button" onclick="saveFile()" class="button" style="vertical-align:middle"><span>Download</span></button>
+              </center>
+            </div> 
+            </center>
+        </article>
+      <center>
+          <footer class="flex-footer">
+            <h6> Joy Albertini Assignment Experiment and Evaluation Camelcase vs Kebabcase</h6>
+            <h6>Last update: 30.11.20</h6>
+          </footer>
+      </center>
+    </main>
+
+    <script src="main.js" type="text/javascript"></script>
+
+</body>
+
+</html>
