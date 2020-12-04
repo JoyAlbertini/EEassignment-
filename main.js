@@ -266,6 +266,11 @@ function add_correct() {
     remove_all_button();
     section_modifier()
     document.getElementById("button_play").onclick = play_section; // prev button to be clikked again 
+
+    if (section == 42) {
+        terminate();
+    }
+
 }
 
 function terminate() {
@@ -274,11 +279,6 @@ function terminate() {
 }
 
 function play_section() {
-
-    if (section == 42) {
-        terminate();
-    }
-
     console.log(section);
     play(matrix[section], correct[section]);
     document.getElementById("button_play").onclick = null; // prev button to be clikked again 
