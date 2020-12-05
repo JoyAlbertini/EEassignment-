@@ -79,7 +79,7 @@ matrix[31] = ["tortuous-torturous-two", "torturous-tortuous-two", "tortuos-tortu
 matrix[32] = ["how-old-you-are", "how-old-are-you", "how-old-yuo-are", "how-cold-you-are", "hows-old-you-are", "how-old-you-care", "how-you-are-old", "howl-old-you-are"]
 matrix[33] = ["nursery-rhymes-songs-kids", "nursery-rhyme-songs-kids", "nursery-rhymes-song-kids", "nursery-rhymes-songs-kid", "nurseri-rhymes-songs-kids", "nursery-rhymes-songs-keeps", "nursery-rymes-songs-kids", "nursey-rhymes-songs-kids"]
 matrix[34] = ["tigers-versus-tiger-fight", "tiger-versus-tiger-fight", "tiger-versus-tigers-fight", "tygers-versus-tiger-fight", "tigers-versus-tyger-fight", "tigers-versus-tiger-fights", "tigers-verus-tiger-fight", "tigers-versus-tiger-fought"]
-matrix[35] = ["coarse-curse-to-courts", "coarse-curse-to-courts", "coarse-course-to-curts", "coarse-courses-to-courts",  "coarse-course-to-court", "corase-course-to-courts", "coarse-to-course-courts", "coarse-to-course-courus"]
+matrix[35] = ["coarse-course-to-courts", "coarse-curse-to-courts", "coarse-course-to-curts", "coarse-courses-to-courts",  "coarse-course-to-court", "corase-course-to-courts", "coarse-to-course-courts", "coarse-to-course-courus"]
 matrix[36] = ["tortuous-torus-torturous-two", "tortous-torus-torturous-two", "torus-tortuous-torturous-two", "tortuous-torus-tortorous-two" , "tortuous-torus-torturus-two", "tortuous-torus-torturous-to", "tortuous-two-torus-torturous", "tortuous-torus-two-torturous"]
 // 3 with 5 words camelCase 
 matrix[37] = ["buy-by-me-or-bye", "buy-by-me-or-bie", "by-buy-me-or-bye", "buy-me-by-or-bye", "buys-by-me-or-bye", "buy-by-me-or-eye", "bust-by-me-or-bye", "buy-by-more-Bye"]
@@ -134,13 +134,15 @@ correct[31] = "tortuous-torturous-two";
 correct[32] = "how-old-you-are";
 correct[33] = "nursery-rhymes-songs-kids";
 correct[34] = "tigers-versus-tiger-fight";
-correct[35] = "coarse-course-to-courts"; // error 
+// coarse-curse-to-courts
+correct[35] = "coarse-course-to-courts"; 
 correct[36] = "tortuous-torus-torturous-two";
 // 6 with 5 words camelCase
 correct[37] = "buy-by-me-or-bye";
 correct[38] = "fist-of-the-north-star";
 correct[39] = "last-but-not-least-test";
 correct[40] = "sunset-south-southward-louth";
+// tortuous torus to torturous two
 correct[41] = "tortuous-torus-to-torturous-two";
 
 
