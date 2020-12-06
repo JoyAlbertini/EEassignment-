@@ -134,15 +134,13 @@ correct[31] = "tortuous-torturous-two";
 correct[32] = "how-old-you-are";
 correct[33] = "nursery-rhymes-songs-kids";
 correct[34] = "tigers-versus-tiger-fight";
-// coarse-curse-to-courts
-correct[35] = "coarse-course-to-courts"; 
+correct[35] = "coarse-course-to-courts"; //error 
 correct[36] = "tortuous-torus-torturous-two";
 // 6 with 5 words camelCase
 correct[37] = "buy-by-me-or-bye";
 correct[38] = "fist-of-the-north-star";
 correct[39] = "last-but-not-least-test";
 correct[40] = "sunset-south-southward-louth";
-// tortuous torus to torturous two
 correct[41] = "tortuous-torus-to-torturous-two";
 
 
